@@ -1,2 +1,73 @@
-# Computer-vision-workshop
-Worckshop on the use of U-Net architectures for computer vision (binary classification). Give by Dr. V.Pimonov in ILM.
+# Workshop on Computer Vision for Image Segmentation
+
+Author: Vladimir PIMONOV  
+Contact: [foxlightmanstudes@gmail.com]  
+Affiliation: [team PNEC / ILM]
+
+This repository contains the teaching material, notebooks, helper scripts, and model definitions used in a workshop on computer vision for image segmentation.
+
+The practical work is centered on a complete segmentation workflow for microscopy images:
+
+- preparing masks from annotations,
+- building and balancing a patch-based dataset,
+- preparing PyTorch datasets and dataloaders,
+- training U-Net family models,
+- running inference on patches and full images,
+- visualizing and post-processing predictions.
+
+The notebooks are written so they can be followed during the workshop, but they are also intended to remain usable independently afterward.
+
+---
+
+## Repository content
+
+The repository is organized around four practical notebooks and a set of reusable helper scripts. As well as requirements.txt file containing information about packages and versions and readme.txt, containing practical guide to install the environment for this practical work.
+
+### Practical notebooks
+
+- **TP01** – Dataset preparation  
+  Extraction of masks from annotation files, patch description in a dataframe, balancing strategy, and export of the final image/mask patches.
+
+- **TP02** – Dataframe preparation / PyTorch data pipeline  
+  Definition of the custom dataset, transformations, augmentations, and dataloaders.
+
+- **TP03** – U-Net training  
+  Model selection, loss functions, optimizer and scheduler setup, training loop, validation, and checkpoint loading.
+
+- **TP04** – Inference  
+  Full-image tiled inference, patch inference, contour visualization, and simple confidence-based post-processing.
+
+---
+
+## Project structure
+
+```text
+repo_root/
+│
+├── TP01. Dataset for training 512 v3.0.ipynb
+├── TP02. Dataframe preparation.ipynb
+├── TP03. U-Net training.ipynb
+├── TP04. Inference.ipynb
+│
+├── readme.txt
+├── requirements.txt
+├── README.md
+│
+└── scripts/
+    ├── __init__.py
+    ├── engine.py
+    ├── inference.py
+    ├── loss_functions.py
+    ├── transforms.py
+    │
+    └── Models/
+        ├── __init__.py
+        ├── models_all_dontuse.py
+        ├── UNetResNet34.py
+        ├── UNetResNetDeep.py
+        ├── UNetResNetDeep_legacy.py
+        ├── UNetPPResNet34.py
+        ├── UNetPPResNetDeep.py
+        ├── UNetPPResNetDeep_legacy.py
+        ├── UNet3PlusResNet34.py
+        └── UNet3PlusResNet50Deep.py
