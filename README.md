@@ -21,7 +21,7 @@ The notebooks are written so they can be followed during the workshop, but they 
 
 ## Repository content
 
-The repository is organized around four practical notebooks and a set of reusable helper scripts. As well as requirements.txt file containing information about packages and versions and readme.txt, containing practical guide to install the environment for this practical work.
+The repository is organized around four practical notebooks and a set of reusable helper scripts. It also includes a `requirements.txt` file listing the required packages and their versions, as well as a `readme.txt` file with a practical guide for installing the environment needed for this workshop.
 
 ### Practical notebooks
 
