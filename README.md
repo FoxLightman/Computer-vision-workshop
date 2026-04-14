@@ -44,10 +44,10 @@ The repository is organized around four practical notebooks and a set of reusabl
 ```text
 repo_root/
 │
-├── TP01. Dataset for training 512 v3.0.ipynb
-├── TP02. Dataframe preparation.ipynb
-├── TP03. U-Net training.ipynb
-├── TP04. Inference.ipynb
+├── TP01. Dataset for training 512 v4.1.ipynb
+├── TP02. Dataframe preparation v4.0.ipynb
+├── TP03. U-Net training v4.0.ipynb
+├── TP04. Inference v4.0.ipynb
 │
 ├── readme.txt
 ├── requirements.txt
@@ -61,8 +61,6 @@ repo_root/
     ├── transforms.py
     │
     └── Models/
-        ├── __init__.py
-        ├── models_all_dontuse.py
         ├── UNetResNet34.py
         ├── UNetResNetDeep.py
         ├── UNetResNetDeep_legacy.py
