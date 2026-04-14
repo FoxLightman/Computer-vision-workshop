@@ -1,0 +1,13 @@
+matplotlib==3.7.0
+notebook==6.5.4
+numpy==1.23.5
+Pillow==11.2.1
+pandas==1.5.3
+psd-tools==1.9.34
+scikit-image==0.19.3
+scipy==1.10.0
+tifffile==2021.7.2
+typing-extensions>=4.10
+torch==2.6.0+cu126
+torchvision==0.21.0+cu126
+tqdm==4.64.1
