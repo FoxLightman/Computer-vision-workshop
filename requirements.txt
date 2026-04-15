@@ -8,6 +8,6 @@ scikit-image==0.19.3
 scipy==1.10.0
 tifffile==2021.7.2
 typing-extensions>=4.10
-torch==2.6.0+cu126
-torchvision==0.21.0+cu126
+torch==2.6.0
+torchvision==0.21.0
 tqdm==4.64.1
