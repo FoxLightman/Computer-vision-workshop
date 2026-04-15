@@ -117,7 +117,7 @@ The deep variants require larger input patches because repeated downsampling red
 The model definitions provided in this repository are intended for training and inference within the workshop workflow.  
 The corresponding training data and fully trained model weights are available separately through the Zenodo repository:
 
-[Zenodo repository link]
+[Zenodo repository link](https://doi.org/10.5281/zenodo.19574354)
 
 This repository therefore contains the code and workflow, while the dataset and trained checkpoints are distributed externally.
 
