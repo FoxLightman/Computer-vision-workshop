@@ -1,0 +1,21 @@
+[project]
+name = "computer-vision-workshop"
+version = "0.1.0"
+description = " Workshop on the use of U-Net architectures for computer vision (binary classification). Given by Dr. V.Pimonov in ILM. "
+readme = "README.md"
+requires-python = "==3.10.9"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "notebook>=7.5.5",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pillow>=12.2.0",
+    "psd-tools>=1.15.0.post1",
+    "scikit-image>=0.25.2",
+    "scipy>=1.15.3",
+    "tifffile>=2025.5.10",
+    "torch==2.6",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.3",
+    "typing-extensions>=4.15.0",
+]
