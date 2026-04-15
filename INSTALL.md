@@ -1,6 +1,6 @@
 # Installation of the software environment for the computer vision workshop
 
-This document describes the installation of the software environment for the computer vision workshop. The software environment is based on Python (version 3.10.9 required) and uses the following libraries:
+This document describes the installation of the software environment for the computer vision workshop. The software environment is based on Python (version 3.10.9 required, other versions may work but have not been tested) and uses the following libraries:
 
 - `PyTorch` (version 2.6 required to load legacy models)
 - `torchvision`
