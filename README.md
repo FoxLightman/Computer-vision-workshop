@@ -22,7 +22,7 @@ The notebooks are intended both for guided use during the workshop and for indep
 ## Repository content
 
 The repository is organized around four practical notebooks and a set of reusable helper scripts.  
-It also includes a `requirements.txt` file listing the required packages and their versions, as well as a `readme.txt` file with a practical guide for installing the environment needed for this workshop.
+See the [INSTALL.md](INSTALL.md) file for instructions on how to set up the software environment.
 
 ### TP01 – Dataset preparation
 

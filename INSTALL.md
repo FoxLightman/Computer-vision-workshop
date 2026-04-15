@@ -138,7 +138,7 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 
 ## Using `conda`
 
-> I could not get this method to work properly, and I therefore recommend using one of the other methods. It requires you to manually specify the correct architecture for PyTorch, which can be error-prone. It also requires a mixed installation with `pip` for some packages. Finally, it is less reliable than the other methods, as it may lead to dependency conflicts (typical of `conda` when trying to install packages in a specific version).
+> This method is not recommended as it requires you to manually specify the correct architecture for PyTorch, which can be error-prone. It also requires a mixed installation with `pip` for some packages. Finally, it is less reliable than the other methods, as it may lead to dependency conflicts (typical of `conda` when trying to install packages in a specific version).
 
 This method involves using `conda`, a popular package manager and environment management system, to create a virtual environment and install the required packages.
 
@@ -159,7 +159,7 @@ Once the virtual environment is activated, you can install the required packages
 You can then install the required packages using the following command:
 
 ```bash
-conda install numpy=1.23.5 scipy=1.10.0 tifffile=2021.7.2 matplotlib=3.7.0 pandas=1.5.3 scikit-image=0.19.3 pillow=11.2.1 tqdm=4.64.1 notebook=6.5.4 "typing-extensions>=4.10"
+conda install numpy=1.23.5 scipy=1.10.0 tifffile=2021.7.2 matplotlib=3.7.0 pandas=1.5.3 scikit-image=0.19.3 pillow=11.2.1 tqdm=4.64.1 notebook=6.5.4 "typing-extensions>=4.10" packaging=22.0 conda-forge::nccl
 ```
 
 For `psd-tools`, you can install it using `pip`:
