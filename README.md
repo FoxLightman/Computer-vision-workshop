@@ -159,6 +159,9 @@ repo_root/
         ├── UNetPPResNetDeep_legacy.py          # Legacy Deep U-Net++; weights available via Zenodo
         ├── UNet3PlusResNet34.py                # Classic U-Net3+; weights available via Zenodo 
         └── UNet3PlusResNet50Deep.py            # Deep implementation of U-Net3+; weights available via Zenodo
+```
+
+---
 
 ## License
 
