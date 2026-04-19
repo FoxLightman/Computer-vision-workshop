@@ -159,3 +159,28 @@ repo_root/
         ├── UNetPPResNetDeep_legacy.py          # Legacy Deep U-Net++; weights available via Zenodo
         ├── UNet3PlusResNet34.py                # Classic U-Net3+; weights available via Zenodo 
         └── UNet3PlusResNet50Deep.py            # Deep implementation of U-Net3+; weights available via Zenodo
+
+## License
+
+This repository is distributed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+
+In practical terms, this means that you are free to:
+
+- **share** — copy and redistribute the material in any medium or format,
+- **adapt** — remix, transform, and build upon the material,
+
+provided that you follow the license conditions.
+
+### Conditions of use
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate whether changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you modify, adapt, or build upon the material, you must distribute the resulting work under the same license.
+- **No additional restrictions** — You may not apply legal or technical restrictions that would prevent others from exercising the rights granted by the license.
+
+### Additional notes
+
+This summary is provided for convenience only and does not replace the full license text.  
+The complete legal code is available in the `LICENSE.md` file and at:
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
