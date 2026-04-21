@@ -214,3 +214,6 @@ Models/
 # Data
 Agregates\ for\ training\ TP/
 launch-notebook-ssh
+
+# Presentation file
+*.pptx
